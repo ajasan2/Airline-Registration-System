@@ -69,6 +69,7 @@ public:
 
         switch (choice)
         {
+
         case 1:
         {
             cout << "__________Dubai__________\n"
@@ -311,7 +312,6 @@ public:
         ofstream outf("records.txt");
         {
             outf << "___________XYZ Airlines___________" << endl;
-            outf << "_____________Tickets______________" << endl;
             outf << "__________________________________" << endl;
 
             outf << "Passenger Number:\t" << Details::passnum << endl;
@@ -413,7 +413,7 @@ void mainMenu()
 
     case 3:
     {
-        cout << "\n________________Tickets________________\n"
+        cout << "\n______________Tickets_____________\n"
              << endl;
         t.Bill();
         t.dispBill();
